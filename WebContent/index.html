@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tarefa POO</title>
+<style>
+
+	body {
+	margin: 0 auto;
+	background-color: #e9d4d4;
+	text-align: center;
+	color:#6b4545
+	}
+
+</style>
+</head>
+<body>
+
+	<div>
+		<h1>Servlets - BY Joao Guilherme</h1>
+	</div>
+	<div class="personal">	
+		<button onclick="location.href='joao-servlet.html'">Joao Servlet</button>
+	</div>
+	<br><br><br>
+	<div class="math-servelet">
+		<form action="math.html" method="POST">
+			Numero 01: <input type="number" required name="n1"><br>
+			Numero 02: <input type="number" required name="n2"><br>
+			Operação: <select name="operacao">
+				<option value="1">+</option>
+                <option value="2">-</option>
+                <option value="3">*</option>
+                <option value="4">/</option>
+			</select>
+			<br><br>
+			<input type="submit" onclick="location.href='joao-servlet.html'" value="Calcular"/>
+		</form>
+		
+	</div>
+</body>
+</html>
